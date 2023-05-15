@@ -55,7 +55,6 @@ function playAgainFunction() {
   timer = globalTimer
   decreaseTimer()
   isGameOver = false
-  
   // Reset player variables
   player.health = 100
   gsap.to('#playerHealth', {
